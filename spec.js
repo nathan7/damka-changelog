@@ -19,7 +19,7 @@ module.exports =
 , [{ '1.2.3.4': { http: error } } , { '1.2.3.4': newError }           , { error: '1.2.3.4 down Error: new' }]
 , [{ '1.2.3.4': error }           , { '1.2.3.4': newError }           , { error: '1.2.3.4 down Error: new' }]
 , [error                          , { '1.2.3.4': newError }           , { info : 'up'
-                                                                          , error: '1.2.3.4 down Error: new' }]
+                                                                        , error: '1.2.3.4 down Error: new' }]
 
 , [null                           , newError                          , { error: 'down Error: new' }]
 , [{ '1.2.3.4': { http: error } } , newError                          , { error: 'down Error: new' }]
