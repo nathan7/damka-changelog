@@ -13,7 +13,7 @@ function equal(a, b) {
 }
 
 module.exports =
-function logChange(oldSystemState, systemState, log) {
+function logChange(log, oldSystemState, systemState) {
   if (equal(systemState, oldSystemState)) return
 
   if (systemState instanceof Error)
