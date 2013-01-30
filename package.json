@@ -1,0 +1,22 @@
+{
+  "name": "damka-changelog",
+  "version": "1.0.0",
+  "description": "log changes of states of services on hosts in systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathan7/damka-changelog.git"
+  },
+  "keywords": [
+    "internal"
+  ],
+  "author": "Nathan Zadoks",
+  "license": "BSD",
+  "dependencies": {
+    "lodash": "~1.0.0-rc.3",
+    "objbind": "~1.0.0"
+  }
+}
