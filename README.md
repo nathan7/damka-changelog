@@ -15,4 +15,3 @@ All possible state forms and their matching log messages are documented in [spec
 
 ## damkaChangelog(log, oldSystemState, systemState)
 log is expected to be an object with .info(message) and .error(message) methods.
-damkaChangelog will log messages corresponding to the transition from oldSystemState to systemState.
