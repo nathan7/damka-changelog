@@ -11,7 +11,7 @@ State objects are objects of any of the following forms:
 null
 ```
 
-All possible state forms and their matching log messages are documented in [spec.js].
+All possible state forms and their matching log messages are documented in [spec.js](https://github.com/nathan7/damka-changelog/blob/master/spec.js).
 
 ## damkaChangelog(log, oldSystemState, systemState)
 log is expected to be an object with .info(message) and .error(message) methods.
