@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nathan7/damka-changelog.png)](https://travis-ci.org/nathan7/damka-changelog)
+[![Build Status](https://travis-ci.org/nathan7/damka-changelog.png?branch=master)](https://travis-ci.org/nathan7/damka-changelog)
 
 # damka-changelog
 damka-changelog takes two state objects and logs messages.
