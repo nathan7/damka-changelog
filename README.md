@@ -7,7 +7,6 @@ State objects are objects of any of the following forms:
 ```javascript
 { '1.2.3.4': { http: <Error> } }
 { '1.2.3.4': <Error> }
-{ '1.2.3.4': <Error> }
 <Error>
 null
 ```
