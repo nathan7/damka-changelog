@@ -18,7 +18,7 @@ function result(a, b) {
       logObj[level] = [logObj[level], msg]
   }
 
-  compare(a, b, log)
+  compare(log, a, b)
   return logObj
 }
 
